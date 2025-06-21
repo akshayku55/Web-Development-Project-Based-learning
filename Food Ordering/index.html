@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order</title>
+</head>
+<body>
+ <h1>Web Development Restaurant</h1>
+
+ <form>
+    <label for="food-type">Select Food Type:
+        <select name="food-type" id="food-type">
+            <option value="North Indian">North Indian</option>
+            <option value="South Indian">South Indian</option>
+            <option value="Chinese">Chinese</option>
+        </select>
+    </label>
+
+    <h2>Order Food:</h2>
+    <ul>
+        <li>
+            <input type="checkbox" id="dal-makhni" name="order-item" value="Dal Makhni">
+            <label for="dal-makhni">
+                <img width="200" src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/dal-makhani-recipe.webp" alt=""> Dal Makhni
+            </label>
+        </li>
+        <li>
+            <input type="checkbox" id="kadhai-paneer" name="order-item" value="Kadhai Paneer">
+            <label for="kadhai-paneer">
+                <img width="200" src="https://th.bing.com/th/id/OIP.xsCenP7YHDIBB2laDwq4yAHaEU?w=108&h=108&c=1&bgcl=64b8f4&r=0&o=6&dpr=1.3&pid=ImgRC" alt=""> Kadhai Paneer
+            </label>
+        </li>
+        <li>
+            <input type="checkbox" id="paneer-momos" name="order-item" value="Paneer Momos">
+            <label for="paneer-momos">
+                <img width="200" src="https://th.bing.com/th/id/OIP.ct-CMRCaHms_vSsuRrMOpgHaE7?w=320&h=200&c=8&rs=1&o=6&dpr=1.3&pid=23.1" alt=""> Paneer Momos
+            </label>
+        </li>
+    </ul>
+
+    <label for="quantity">Enter Quantity (for each item): </label>
+    <input type="number" id="quantity" name="quantity" min="1" placeholder="Enter Number"><br><br>
+
+    <h3>Enter Details:</h3>
+    <label for="name">Name: 
+        <input type="text" id="name" name="name" required>
+    </label><br>
+    <label for="phone">Phone Number: 
+        <input type="tel" id="phone" name="phone" required>
+    </label><br>
+    <label for="email">Email:
+        <input type="email" id="email" name="email" required>
+    </label><br>
+    <label for="dob">Date of Birth:
+        <input type="date" id="dob" name="dob" required>
+    </label><br><br>
+    <button type="submit">Place Order</button>
+</form>
+</body>
+</html>
