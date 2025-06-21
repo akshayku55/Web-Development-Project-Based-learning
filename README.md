@@ -1,6 +1,5 @@
 # Web-Development-Project-Based-learning
 A web development project lab, mini projects for every concept from html/css basics to full stack. Project based learning in public
 
-----------------------------------------------------------------------
-Date           |                     Project Name                     | 
-21/6/25        |                    Mini Portfolio Using HTML only    |
+21/06/25 - Personal Portfolio using HTML only
+22/06/25 - Made a Food ordering Page 
